@@ -63,7 +63,7 @@ function OrderHistoryScreen() {
                   <td className=" p-5 ">${order.totalPrice}</td>
                   <td className=" p-5 ">
                     {order.isPaid
-                      ? `${order.paidAt.substring(0, 10)}`
+                      ? `${order?.paidAt?.substring(0, 10)}`
                       : "not paid"}
                   </td>
                   <td className=" p-5 ">

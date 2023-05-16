@@ -39,7 +39,7 @@ export default function Header() {
       <div className="w-full shadow-md h-12 bg-gray-400 text-white">
         <nav className="h-full w-full lg:w-4/6 md:w-5/6 flex justify-between items-center mx-auto px-4 text-black">
           <Link href="/">
-            <a className="text-lg font-bold lg:w-1/3 ">AskarEstore</a>
+            <a className="text-lg font-bold lg:w-1/3 ">WebShop</a>
           </Link>
           <form
             onSubmit={submitHandler}
